@@ -6,6 +6,7 @@ personaly i dont understand or know how to go about it. it would totally be a sl
 note the syntax or architecture or even implementation may not be correct
 
 command interpreter description:
+  
     how to start the cmd_interpreter:
 
     how to use the cmd_interpreter:
