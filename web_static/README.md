@@ -1,0 +1,1 @@
+this is the web-static folder of the html/css project.

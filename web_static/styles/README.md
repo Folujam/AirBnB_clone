@@ -1,0 +1,1 @@
+this is the style folder of the html/css project.

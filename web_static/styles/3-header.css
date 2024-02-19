@@ -1,0 +1,10 @@
+header {
+    background-color: #FF0000;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px#CCCCCC;
+    color: white;
+    background-image: url('../images/logo_hbnb.png');
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
