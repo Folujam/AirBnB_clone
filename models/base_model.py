@@ -8,7 +8,8 @@ from datetime import datetime
 
 class BaseModel:
     """
-    class BaseModel that defines all common attributes/methods for other classes
+    class BaseModel that defines all common
+    attributes/methods for other classes
     """
     def __init__(self, *args, **kwargs):
         """
@@ -29,7 +30,7 @@ class BaseModel:
     def save(self):
         """save method"""
         self.updated_at = datetime.now()
-    
+
     def to_dict(self):
         """returns a __dict__"""
         obj_dict = self.__dict__.copy()
@@ -37,6 +38,8 @@ class BaseModel:
         obj_dict['updated_at'] = self.updated_at.isoformat()
         obj_dict['__class__'] = self.__class__.__name__
         return obj_dict
+
     def __str__(self):
         """shows str how to use"""
-        return "[{}] ({}) {}".format(self.__class__.__name__, self.id, self.to_dict())
+        return "[{}] ({}) {}".format(self.__class__.__name__,
+                                     self.id, self.to_dict())
